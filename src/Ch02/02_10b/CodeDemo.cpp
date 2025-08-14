@@ -6,7 +6,8 @@
 #include <cstdint>
 
 int main(){
-    
+    float target_x;
+    int32_t sprite_x;
     std::cout << std::endl << std::endl;
     return 0;
 }
