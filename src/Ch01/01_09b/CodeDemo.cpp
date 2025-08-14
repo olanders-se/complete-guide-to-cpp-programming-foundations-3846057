@@ -11,7 +11,7 @@ int main()
 
     std::cout<< "What is your name? " << std::flush;
     std::cin >> yourName;
-    std::cout<< "Your name is: " << yourName << std::endl;
+    std::cout<< "Your name is: " << yourName << "!" << std::endl;
     std::cout << std::endl << std::endl;
     return 0;
 }
