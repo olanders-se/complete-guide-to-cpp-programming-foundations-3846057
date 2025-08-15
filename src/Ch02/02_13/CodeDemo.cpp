@@ -6,7 +6,12 @@
 #include <cstdint>
 
 int add_int(float a, double b, long double c){
-    int result = 0;
+    int answer = 0;
+    
+    answer = (int)a + (int)b + (int)c;
+
+    int result = answer;
+
 
     // Write your code here
     
@@ -14,8 +19,8 @@ int add_int(float a, double b, long double c){
 }
 
 int main(){
-    float a = 2.1;
-    double b = 3.9;
+    float a =  - 2.1;
+    double b = - 3.9;
     long double c = 4.6;
 
     int learnerResult = add_int(a, b, c);
