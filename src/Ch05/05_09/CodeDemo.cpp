@@ -16,7 +16,12 @@ double CalculateTotalCost(std::vector<Resource> resources){
     double result = 0.0;
     
     // Write your code here
-    
+    for (auto resource : resources ){
+        std::cout << resource.type << std::endl;
+        std::cout << resource.baseCost << std::endl;
+    }
+
+
     return result;
 }
 
