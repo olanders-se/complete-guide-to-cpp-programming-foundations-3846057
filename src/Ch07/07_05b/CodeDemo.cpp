@@ -74,17 +74,27 @@ int main(){
     Inventory myInventory(5); 
     
     // Add 5 items
+    myInventory.addItem("Health Potion");
+    myInventory.addItem("Health ");
+    myInventory.addItem("Potion");
+    myInventory.addItem("test");
+    myInventory.addItem("Sista raden");
 
     // Display current inventory
     myInventory.displayInventory(); 
 
     // Try to add another item when inventory is full
+    myInventory.addItem("Går inte att lägga till");
 
     // Remove an item
+    myInventory.removeItem("Health Potion");
 
     // Display the item count
+    std::cout << "The inventory now contains: " << myInventory.getItemCount() << " items." << std::endl;
 
     // Access item by index
+    std::cout << "Item at index 2: " << myInventory.getItem(2) << std::endl;
+
 
     // Display final state of inventory
     myInventory.displayInventory();
